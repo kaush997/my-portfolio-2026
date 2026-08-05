@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   THEME TOKENS — change the whole site's color identity here.
+   Everything downstream (Tailwind's brand/accent/ink/surface
+   classes) reads from these CSS variables.
+   ============================================================ */
+:root {
+  /* Brand purple scale (light mode) */
+  --brand-50: #FAF7FF;
+  --brand-100: #F1E9FF;
+  --brand-200: #E1D0FC;
+  --brand-300: #C9A9F7;
+  --brand-400: #A876ED;
+  --brand-500: #8B4FDE;
+  --brand-600: #7433C9;
+  --brand-700: #5E24A8;
+  --brand-800: #4C1D95;
+  --brand-900: #391566;
+  --brand-950: #240B45;
+
+  /* Warm gold accent — deliberate counterpoint to the purple */
+  --accent: #C6892A;
+  --accent-soft: #EFD9A8;
+
+  /* Text + surfaces (light mode) */
+  --ink: #241A33;
+  --ink-soft: #5B4E70;
+  --ink-faint: #8B7EA1;
+
+  --surface: #FBF9FE;
+  --surface-raised: #FFFFFF;
+  --surface-sunken: #F1EAFB;
+}
+
+.dark {
+  --brand-50: #240B45;
+  --brand-100: #391566;
+  --brand-200: #4C1D95;
+  --brand-300: #5E24A8;
+  --brand-400: #7433C9;
+  --brand-500: #9D6FE8;
+  --brand-600: #B594F0;
+  --brand-700: #CBB2F5;
+  --brand-800: #E1D0FC;
+  --brand-900: #F1E9FF;
+  --brand-950: #FAF7FF;
+
+  --accent: #E8B34C;
+  --accent-soft: #4A3517;
+
+  --ink: #F3EEFC;
+  --ink-soft: #C9BEDD;
+  --ink-faint: #8E7FA8;
+
+  --surface: #150A26;
+  --surface-raised: #1E1035;
+  --surface-sunken: #100720;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--ink);
+  font-family: 'Manrope', sans-serif;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+::selection {
+  background-color: var(--accent-soft);
+  color: var(--brand-950);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface-sunken);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-400);
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus visibility */
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Signature: hand-set underline stroke used beneath section eyebrows */
+.stroke-underline {
+  position: relative;
+  display: inline-block;
+}
+.stroke-underline svg {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 8px;
+}
+
+/* Seal ring animation, used in hero */
+.seal-ring {
+  animation: spin-slow 24s linear infinite;
+  transform-origin: center;
+}
