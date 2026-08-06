@@ -126,9 +126,7 @@ export default function Contact() {
                 <Send size={16} />
                 {status === "sent" ? "Message sent!" : "Send message"}
               </button>
-              <p className="text-xs text-ink-faint">
-                This form is a static demo — connect it to your email service (e.g. Formspree, EmailJS) to receive messages.
-              </p>
+              
             </form>
           </Reveal>
         </div>

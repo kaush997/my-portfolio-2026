@@ -15,7 +15,7 @@ export default function Footer() {
               {profile.name}
             </p>
             <p className="text-xs text-ink-faint">
-              &copy; {year} — Built with React, Vite &amp; Tailwind CSS.
+              &copy; {year} {profile.name}. All rights reserved.
             </p>
           </div>
         </div>

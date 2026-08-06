@@ -38,15 +38,15 @@ export const about = {
 
 export const services = [
   {
-    title: "Web Application Development",
+    title: "Full-Stack Software Development",
     description:
-      "End-to-end delivery of responsive, accessible web apps — from architecture to polished UI — using React, Node.js, and modern tooling.",
+      "Building scalable, secure, and high-performance software solutions that deliver reliable and seamless user experiences.",
     icon: "Code2",
   },
   {
-    title: "Applied Machine Learning",
+    title: "Artificial Intelligence Solutions",
     description:
-      "Designing and deploying ML models for real products: data pipelines, model evaluation, and production inference.",
+      "Developing intelligent solutions using AI and machine learning to automate processes and solve real-world challenges.",
     icon: "BrainCircuit",
   },
   {
@@ -65,142 +65,242 @@ export const services = [
 
 export const experience = [
   {
-    role: "Senior Software Engineer",
-    org: "Nimbus Labs",
-    period: "2023 — Present",
+    role: "Associate Software Engineer",
+    org: "Upali Group of Companies",
+    period: "Nov 2025 — Present",
     location: "Colombo, Sri Lanka",
     points: [
-      "Lead a team of 4 engineers building a real-time analytics platform used by 50k+ monthly active users.",
-      "Cut infrastructure costs by 32% through query optimisation and a re-architected caching layer.",
-      "Introduced a component design system adopted across three product teams.",
+      "Design and develop enterprise web applications that support business operations and improve organizational efficiency.",
+      "Collaborate with cross-functional teams to implement new features, optimize system performance, and maintain software quality.",
+      "Contribute to ERP, HRM, Payroll, and business process automation solutions while following industry best practices.",
     ],
   },
   {
-    role: "Software Engineer",
-    org: "Cortex Systems",
-    period: "2021 — 2023",
-    location: "Colombo, Sri Lanka",
+    role: "Software Engineer Intern",
+    org: "Web C Lanka",
+    period: "Jul 2025 — Oct 2025",
+    location: "Matugama, Sri Lanka",
     points: [
-      "Built and maintained core services for a fintech onboarding product handling 10k+ daily transactions.",
-      "Partnered with the data team to ship a fraud-detection model into production.",
-      "Reduced average API latency by 40% through targeted refactors and caching.",
+      "Developed and maintained web applications by implementing responsive interfaces and backend functionalities.",
+      "Worked closely with senior developers to troubleshoot issues, enhance existing features, and improve application performance.",
+      "Participated in the software development lifecycle, including testing, debugging, and deployment activities.",
     ],
   },
   {
-    role: "Software Engineering Intern",
-    org: "Vellora Technologies",
-    period: "2020 — 2021",
+    role: "Machine Learning Engineer Intern",
+    org: "Sri Lanka Telecom",
+    period: "Feb 2024 — Aug 2024",
     location: "Colombo, Sri Lanka",
     points: [
-      "Shipped internal tooling that automated a manual QA workflow, saving ~6 hours/week.",
-      "Wrote test coverage for legacy modules, raising coverage from 41% to 78%.",
+      "Conducted research and developed machine learning and computer vision solutions for real-world business use cases.",
+      "Performed data preprocessing, model training, evaluation, and performance analysis to improve solution accuracy.",
+      "Collaborated with mentors and research teams to explore AI-driven approaches for solving practical engineering challenges.",
     ],
   },
 ];
 
 export const education = [
   {
-    degree: "B.Sc. (Hons) in Computer Science",
-    school: "University of Colombo School of Computing",
-    period: "2017 — 2021",
-    detail: "First Class Honours · Final-year project on federated learning for edge devices.",
+    degree: "B.Sc. (Hons) in Computing and Information Systems",
+    school: "Sabaragamuwa University of Sri Lanka",
+    period: "2020 — 2025",
+    detail: "Second Class Upper Division with 3.41 FGPA.",
   },
   {
-    degree: "G.C.E. Advanced Level — Physical Science",
-    school: "Visakha Vidyalaya, Colombo",
-    period: "2014 — 2016",
-    detail: "Island rank in Combined Mathematics.",
+    degree: "Diploma in Business English",
+    school: "IUHS campus (Nugegoda, Sri Lanka)",
+    period: "2022 — 2022",
+    detail: "Presentation, writing, and communication skills for professional contexts.",
+  },
+  {
+    degree: "G.C.E. Advanced Level — Physical Science Stream",
+    school: "Mahinda Rajapaksha College, Homagama",
+    period: "2016 — 2018",
+    detail: "Section First in Combined Mathematics.",
   },
 ];
 
 export const skills = [
-  { name: "JavaScript / TypeScript", level: 95 },
-  { name: "React & Next.js", level: 92 },
-  { name: "Node.js", level: 88 },
-  { name: "Python", level: 85 },
-  { name: "Machine Learning (PyTorch)", level: 78 },
-  { name: "SQL & Data Modelling", level: 82 },
+  { name: "JavaScript / TypeScript", level: 80 },
+  { name: "React & Next.js", level: 80 },
+  { name: "Node.js", level: 75 },
+  { name: "Laravel", level: 90 },
+  { name: "PHP", level: 90 },
+  { name: "Python", level: 90 },
+  { name: "PyTorch", level: 78 },
+  { name: "TensorFlow & Keras", level: 75 },
+  { name: "SQL & Data Modelling", level: 90 },
   { name: "Cloud (AWS / GCP)", level: 75 },
   { name: "UI/UX Design", level: 70 },
+  { name: "Git & CI/CD", level: 80 },
+  { name: "MS Power BI", level: 80 },
+  { name: "Tailwind & Bootstrap", level: 80 },
 ];
 
 export const certificates = [
   {
-    title: "AWS Certified Solutions Architect — Associate",
-    issuer: "Amazon Web Services",
+    title: "Introduction to Computer Vision and Image Processing",
+    issuer: "IBM (Coursera)",
     year: "2024",
   },
   {
-    title: "TensorFlow Developer Certificate",
-    issuer: "Google",
+    title: "Machine Learning for All",
+    issuer: "University of London (Coursera)",
+    year: "2024",
+  },
+  {
+    title: "Computer Vision and Image Processing Essentials",
+    issuer: "Coursera",
+    year: "2024",
+  },
+  {
+    title: "Python for Beginners",
+    issuer: "University of Moratuwa",
     year: "2023",
   },
   {
-    title: "Machine Learning Specialization",
-    issuer: "DeepLearning.AI / Stanford Online",
-    year: "2022",
+    title: "Cloud Foundations",
+    issuer: "Great Learning",
+    year: "2023",
   },
   {
-    title: "Professional Scrum Master I",
-    issuer: "Scrum.org",
-    year: "2022",
+    title: "Frontend Development",
+    issuer: "Great Learning",
+    year: "2024",
+  },
+  {
+    title: "Python Data Structures",
+    issuer: "Sololearn",
+    year: "2023",
+  },
+  {
+    title: "Numpy for Data Science",
+    issuer: "Great Learning",
+    year: "2024",
   },
 ];
 
 export const researches = [
   {
-    title: "Federated Learning Strategies for Low-Resource Edge Devices",
-    venue: "IEEE Regional Conference on Computing, 2023",
+    title: "An Enhanced U-Net-based Approach for Sinhala Document Layout Analysis",
+    venue: "Journal of Computers and Digital Business, 2025",
     description:
-      "Proposed a lightweight aggregation strategy that reduces communication overhead by 27% on constrained IoT hardware.",
-    link: "#",
+      "Proposed an enhanced U-Net architecture for accurate Sinhala document layout analysis, improving segmentation performance for complex document structures.",
+    link: "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=An+Enhanced+U-Net-based+Approach+for+Sinhala+Document+Layout+Analysis&btnG=",
   },
   {
-    title: "Explainability Trade-offs in Production Recommendation Systems",
-    venue: "ACM SIGKDD Workshop, 2022",
+    title: "Exploring Techniques for Analyzing Sinhala Document Layouts and Styles: A Systematic Literature Review",
+    venue: "International Journal of Research Publication and Reviews (IJRPR), 2025",
     description:
-      "Studied the accuracy–interpretability trade-off in gradient-boosted recommenders deployed at scale.",
-    link: "#",
+      "Conducted a comprehensive review of document layout analysis techniques, highlighting recent advancements, challenges, and future research directions for Sinhala documents.",
+    link: "https://ijrpr.com/uploads/V6ISSUE6/IJRPR47501.pdf",
   },
   {
-    title: "A Comparative Study of Caching Strategies for Real-Time Analytics",
-    venue: "University of Colombo Research Symposium, 2021",
+    title: "Enhanced U-Net Architecture for Analyzing Sinhala Document Layouts and Styles",
+    venue: "Abstract Publication • Computing Undergraduate Research Symposium (ComURS), 2025",
     description:
-      "Undergraduate thesis benchmarking cache-invalidation strategies for high-write analytics workloads.",
-    link: "#",
+      "Published and presented a research abstract introducing an enhanced U-Net approach for Sinhala document layout analysis and document structure understanding.",
+    link: "http://repo.lib.sab.ac.lk:8080/xmlui/handle/susl/4966",
   },
 ];
 
 export const projects = [
   {
-    title: "Pulse — Real-Time Analytics Dashboard",
+    title: "Human Resource Management System",
     description:
-      "A self-serve analytics platform with live event streaming, custom dashboards, and role-based access.",
-    tags: ["React", "Node.js", "WebSockets", "PostgreSQL"],
+      "A comprehensive multi-company HR management platform featuring attendance tracking, payroll processing, leave and loan management, employee administration, and interactive business dashboards.",
+    tags: [
+      "React",
+      "Vite",
+      "Laravel",
+      "MySQL",
+      "SMS Gateway",
+      "Email Gateway",
+    ],
     link: "#",
     repo: "#",
   },
   {
-    title: "Aegis — Fraud Detection Pipeline",
+    title: "AI-Based Criminal Identification System",
     description:
-      "An ML pipeline that scores fintech transactions in under 80ms, with a feedback loop for continual retraining.",
-    tags: ["Python", "PyTorch", "Kafka", "Docker"],
+      "An AI-powered criminal investigation platform with facial recognition, criminal profile management, crime records, and investigation support for law enforcement agencies.",
+    tags: [
+      "React",
+      "Bootstrap",
+      "FastAPI",
+      "TensorFlow",
+      "Keras",
+      "MySQL",
+    ],
     link: "#",
     repo: "#",
   },
   {
-    title: "Nimbus UI — Component Library",
+    title: "Park & Pay — Parking Management",
     description:
-      "An accessible, themeable React component library used across three internal product teams.",
-    tags: ["React", "TypeScript", "Storybook", "Tailwind"],
+      "An intelligent parking management solution with automatic number plate recognition, human detection, IP camera integration, gate automation, and smart parking allocation.",
+    tags: [
+      "React",
+      "Laravel",
+      "YOLO",
+      "TensorFlow",
+      "Keras",
+      "OpenCV",
+      "MySQL",
+    ],
     link: "#",
     repo: "#",
   },
   {
-    title: "Kolam — Generative Pattern Studio",
+    title: "POS System",
     description:
-      "A small creative-coding tool that generates traditional geometric patterns using parametric rules.",
-    tags: ["Canvas API", "JavaScript", "Creative Coding"],
+      "A complete point-of-sale solution supporting sales, billing, returns, quotations, inventory control, purchasing, customer loyalty, supplier management, and employee operations.",
+    tags: [
+      "React",
+      "Laravel",
+      "Tailwind CSS",
+      "MySQL",
+    ],
+    link: "#",
+    repo: "#",
+  },
+  {
+    title: "ACME Business Management System",
+    description:
+      "A business management system for inventory, sales, invoicing, quotations, employee management, attendance, payroll, customer relationships, suppliers, and advanced reporting.",
+    tags: [
+      "Laravel",
+      "Blade",
+      "Tailwind CSS",
+      "MySQL",
+    ],
+    link: "#",
+    repo: "#",
+  },
+  {
+    title: "KANDOS — E-commerce Platform",
+    description:
+      "A fully manageable e-commerce platform with an integrated admin panel for products, inventory batches, orders, payments, customers, and dynamic website content management.",
+    tags: [
+      "React",
+      "Laravel",
+      "Blade",
+      "Tailwind CSS",
+      "MySQL",
+    ],
+    link: "#",
+    repo: "#",
+  },
+  {
+    title: "Shield System",
+    description:
+      "A centralized security platform providing encryption services, secure key management, and token-based authentication to protect sensitive data across enterprise applications.",
+    tags: [
+      "React",
+      "Laravel",
+      "MySQL",
+      "Encryption",
+    ],
     link: "#",
     repo: "#",
   },
@@ -208,27 +308,68 @@ export const projects = [
 
 export const gallery = [
   {
-    caption: "Speaking at Colombo Dev Meetup, 2024",
-    src: "https://images.unsplash.com/photo-1560439514-4e9645039924?w=800&q=80",
+    caption: "Graduation Day",
+    src: "public/images/1.jpg",
   },
   {
-    caption: "Hackathon win — Nimbus Labs team",
-    src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+    caption: "Graduation Day",
+    src: "public/images/2.jpg",
   },
   {
-    caption: "Workshop: intro to machine learning",
-    src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
+    caption: "Graduation Day",
+    src: "public/images/3.jpg",
   },
   {
-    caption: "University research symposium",
-    src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+    caption: "Graduation Day",
+    src: "public/images/4.jpg",
   },
   {
-    caption: "Office — building Pulse dashboard",
-    src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+    caption: "Graduation Day",
+    src: "public/images/5.jpg",
   },
   {
-    caption: "Mentoring session with junior engineers",
-    src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80",
+    caption: "ComURS 2025 — Research Symposium",
+    src: "public/images/6.jpg",
   },
+  {
+    caption: "ComURS 2025 — Research Symposium",
+    src: "public/images/7.jpg",
+  },
+  {
+    caption: "ComURS 2025 — Research Symposium",
+    src: "public/images/8.jpg",
+  },
+  {
+    caption: "Batch Photo Day — Sabaragamuwa University",
+    src: "public/images/9.jpg",
+  },
+  {
+    caption: "Batch Photo Day — Sabaragamuwa University",
+    src: "public/images/10.jpg",
+  },
+  {
+    caption: "Batch Photo Day — Sabaragamuwa University",
+    src: "public/images/11.jpg",
+  },
+  {
+    caption: "Coding",
+    src: "public/images/12.jpg",
+  },
+  {
+    caption: "Research Mid Evaluation Presentation",
+    src: "public/images/13.jpg",
+  },
+  {
+    caption: "University Events",
+    src: "public/images/14.jpg",
+  },
+  // {
+  //   caption: "University Events",
+  //   src: "public/images/15.jpg",
+  // },
+  {
+    caption: "University Events",
+    src: "public/images/16.jpg",
+  },
+  
 ];

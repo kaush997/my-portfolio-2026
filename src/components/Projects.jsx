@@ -37,7 +37,7 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-                  <div className="flex items-center gap-5 mt-6 pt-5 border-t border-brand-200/50 dark:border-brand-800/50">
+                  {/* <div className="flex items-center gap-5 mt-6 pt-5 border-t border-brand-200/50 dark:border-brand-800/50">
                     <a
                       href={p.link}
                       className="inline-flex items-center gap-1.5 text-sm font-medium text-ink hover:text-accent transition-colors"
@@ -50,7 +50,7 @@ export default function Projects() {
                     >
                       <Github size={15} /> Code
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Reveal>
