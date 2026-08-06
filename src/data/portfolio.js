@@ -142,21 +142,25 @@ export const certificates = [
     title: "Introduction to Computer Vision and Image Processing",
     issuer: "IBM (Coursera)",
     year: "2024",
+    image: "public/images/certificate1.jpg",
   },
   {
     title: "Machine Learning for All",
     issuer: "University of London (Coursera)",
     year: "2024",
+    image: "public/images/certificate2.jpg",
   },
   {
     title: "Computer Vision and Image Processing Essentials",
     issuer: "Coursera",
     year: "2024",
+    image: "public/images/certificate3.jpg",
   },
   {
     title: "Python for Beginners",
     issuer: "University of Moratuwa",
     year: "2023",
+    image: "public/images/certificate4.jpg",
   },
   {
     title: "Cloud Foundations",
@@ -371,5 +375,9 @@ export const gallery = [
     caption: "University Events",
     src: "public/images/16.jpg",
   },
+  // {
+  //   caption: "University Events",
+  //   src: "public/images/certificate1.jpg",
+  // },
   
 ];
