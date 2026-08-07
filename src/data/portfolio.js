@@ -1,8 +1,3 @@
-// ============================================================
-// PORTFOLIO CONTENT — edit everything about Sanduni's site here.
-// Components just read from this file, so you rarely need to
-// touch component code to update text, links, or lists.
-// ============================================================
 
 export const profile = {
   name: "Sanduni Hulathdoowage",
@@ -142,25 +137,25 @@ export const certificates = [
     title: "Introduction to Computer Vision and Image Processing",
     issuer: "IBM (Coursera)",
     year: "2024",
-    image: "public/images/certificate1.jpg",
+    image: "/images/certificate1.jpg",
   },
   {
     title: "Machine Learning for All",
     issuer: "University of London (Coursera)",
     year: "2024",
-    image: "public/images/certificate2.jpg",
+    image: "/images/certificate2.jpg",
   },
   {
     title: "Computer Vision and Image Processing Essentials",
     issuer: "Coursera",
     year: "2024",
-    image: "public/images/certificate3.jpg",
+    image: "/images/certificate3.jpg",
   },
   {
     title: "Python for Beginners",
     issuer: "University of Moratuwa",
     year: "2023",
-    image: "public/images/certificate4.jpg",
+    image: "/images/certificate4.jpg",
   },
   {
     title: "Cloud Foundations",
@@ -313,71 +308,71 @@ export const projects = [
 export const gallery = [
   {
     caption: "Graduation Day",
-    src: "public/images/1.jpg",
+    src: "/images/1.jpg",
   },
   {
     caption: "Graduation Day",
-    src: "public/images/2.jpg",
+    src: "/images/2.jpg",
   },
   {
     caption: "Graduation Day",
-    src: "public/images/3.jpg",
+    src: "/images/3.jpg",
   },
   {
     caption: "Graduation Day",
-    src: "public/images/4.jpg",
+    src: "/images/4.jpg",
   },
   {
     caption: "Graduation Day",
-    src: "public/images/5.jpg",
+    src: "/images/5.jpg",
   },
   {
     caption: "ComURS 2025 — Research Symposium",
-    src: "public/images/6.jpg",
+    src: "/images/6.jpg",
   },
   {
     caption: "ComURS 2025 — Research Symposium",
-    src: "public/images/7.jpg",
+    src: "/images/7.jpg",
   },
   {
     caption: "ComURS 2025 — Research Symposium",
-    src: "public/images/8.jpg",
+    src: "/images/8.jpg",
   },
   {
     caption: "Batch Photo Day — Sabaragamuwa University",
-    src: "public/images/9.jpg",
+    src: "/images/9.jpg",
   },
   {
     caption: "Batch Photo Day — Sabaragamuwa University",
-    src: "public/images/10.jpg",
+    src: "/images/10.jpg",
   },
   {
     caption: "Batch Photo Day — Sabaragamuwa University",
-    src: "public/images/11.jpg",
+    src: "/images/11.jpg",
   },
   {
     caption: "Coding",
-    src: "public/images/12.jpg",
+    src: "/images/12.jpg",
   },
   {
     caption: "Research Mid Evaluation Presentation",
-    src: "public/images/13.jpg",
+    src: "/images/13.jpg",
   },
   {
     caption: "University Events",
-    src: "public/images/14.jpg",
+    src: "/images/14.jpg",
   },
   // {
   //   caption: "University Events",
-  //   src: "public/images/15.jpg",
+  //   src: "/images/15.jpg",
   // },
   {
     caption: "University Events",
-    src: "public/images/16.jpg",
+    src: "/images/16.jpg",
   },
   // {
   //   caption: "University Events",
-  //   src: "public/images/certificate1.jpg",
+  //   src: "/images/certificate1.jpg",
   // },
   
 ];
