@@ -48,21 +48,25 @@ export default function Hero() {
               href={profile.resumeUrl}
               className="inline-flex items-center gap-2 px-6 py-3 font-medium transition-colors duration-300 border rounded-full border-brand-400/50 dark:border-brand-600/60 text-ink hover:border-accent hover:text-accent"
             >
-              Download résumé
+              Download resume
+              {/* <ArrowUpRight
+                size={16}
+                className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+              /> */}
             </a>
           </div>
         </div>
 
         {/* Signature seal badge */}
         <div className="relative flex items-center justify-center mx-auto">
-  <div className="relative w-80 h-80 sm:w-96 sm:h-96 md:w-[32rem] md:h-[32rem] lg:w-[38rem] lg:h-[38rem] animate-float">
-    <div className="absolute inset-0 grid rounded-full place-items-center">
-      <div className="w-full h-full">
-        <Avatar />
+        <div className="relative w-80 h-80 sm:w-96 sm:h-96 md:w-[32rem] md:h-[32rem] lg:w-[38rem] lg:h-[38rem] animate-float">
+          <div className="absolute inset-0 grid rounded-full place-items-center">
+            <div className="w-full h-full">
+              <Avatar />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
       </div>
 
       <a
