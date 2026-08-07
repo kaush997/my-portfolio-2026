@@ -6,7 +6,7 @@ import Reveal from "./Reveal";
 import { profile } from "../data/portfolio";
 
 export default function Contact() {
-  const [status, setStatus] = useState("idle"); // idle | sending | sent | error
+  const [status, setStatus] = useState("idle");
   const formRef = useRef(null);
 
   const handleSubmit = (e) => {

@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 
-// Parses "50+" -> { number: 50, suffix: "+" }
-// Also handles plain numbers like "14" -> { number: 14, suffix: "" }
 function parseValue(value) {
   const match = String(value).match(/^(\d+(?:\.\d+)?)(.*)$/);
   if (!match) return { number: 0, suffix: String(value) };
