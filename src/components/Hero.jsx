@@ -46,8 +46,10 @@ export default function Hero() {
             </a>
             <a
               href={profile.resumeUrl}
-              className="inline-flex items-center gap-2 px-6 py-3 font-medium transition-colors duration-300 border rounded-full border-brand-400/50 dark:border-brand-600/60 text-ink hover:border-accent hover:text-accent"
-            >
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 font-medium transition-colors duration-300 border rounded-full border-brand-400/50 dark:border-brand-600/60 text-ink hover:border-accent hover:text-accent"
+              >
               Download resume
               {/* <ArrowUpRight
                 size={16}
