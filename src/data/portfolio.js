@@ -7,7 +7,7 @@ export const profile = {
   location: "Colombo, Sri Lanka",
   email: "skdilukshi@gmail.com",
   phone: "+94 71 772 8723",
-  resumeUrl: "/SE_Sanduni_Hulathdoowage.pdf",
+  resumeUrl: `${import.meta.env.BASE_URL}SE_Sanduni_Hulathdoowage.pdf`,
   social: {
     github: "https://github.com/kaush997",
     linkedin: "www.linkedin.com/in/sanduni-hulathdoowage-994248245",
