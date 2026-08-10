@@ -137,25 +137,25 @@ export const certificates = [
     title: "Introduction to Computer Vision and Image Processing",
     issuer: "IBM (Coursera)",
     year: "2024",
-    image: "/images/certificate1.jpg",
+    image: `${import.meta.env.BASE_URL}images/certificate1.jpg`,
   },
   {
     title: "Machine Learning for All",
     issuer: "University of London (Coursera)",
     year: "2024",
-    image: "/images/certificate2.jpg",
+    image: `${import.meta.env.BASE_URL}images/certificate2.jpg`,
   },
   {
     title: "Computer Vision and Image Processing Essentials",
     issuer: "Coursera",
     year: "2024",
-    image: "/images/certificate3.jpg",
+    image: `${import.meta.env.BASE_URL}images/certificate3.jpg`,
   },
   {
     title: "Python for Beginners",
     issuer: "University of Moratuwa",
     year: "2023",
-    image: "/images/certificate4.jpg",
+    image: `${import.meta.env.BASE_URL}images/certificate4.jpg`,
   },
   {
     title: "Cloud Foundations",
@@ -308,71 +308,71 @@ export const projects = [
 export const gallery = [
   {
     caption: "Graduation Day",
-    src: "/images/1.jpg",
+    src: `${import.meta.env.BASE_URL}images/1.jpg`,
   },
   {
     caption: "Graduation Day",
-    src: "/images/2.jpg",
+    src: `${import.meta.env.BASE_URL}images/2.jpg`,
   },
   {
     caption: "Graduation Day",
-    src: "/images/3.jpg",
+    src: `${import.meta.env.BASE_URL}images/3.jpg`,
   },
   {
     caption: "Graduation Day",
-    src: "/images/4.jpg",
+    src: `${import.meta.env.BASE_URL}images/4.jpg`,
   },
   {
     caption: "Graduation Day",
-    src: "/images/5.jpg",
+    src: `${import.meta.env.BASE_URL}images/5.jpg`,
   },
   {
     caption: "ComURS 2025 — Research Symposium",
-    src: "/images/6.jpg",
+    src: `${import.meta.env.BASE_URL}images/6.jpg`,
   },
   {
     caption: "ComURS 2025 — Research Symposium",
-    src: "/images/7.jpg",
+    src: `${import.meta.env.BASE_URL}images/7.jpg`,
   },
   {
     caption: "ComURS 2025 — Research Symposium",
-    src: "/images/8.jpg",
+    src: `${import.meta.env.BASE_URL}images/8.jpg`,
   },
   {
     caption: "Batch Photo Day — Sabaragamuwa University",
-    src: "/images/9.jpg",
+    src: `${import.meta.env.BASE_URL}images/9.jpg`,
   },
   {
     caption: "Batch Photo Day — Sabaragamuwa University",
-    src: "/images/10.jpg",
+    src: `${import.meta.env.BASE_URL}images/10.jpg`,
   },
   {
     caption: "Batch Photo Day — Sabaragamuwa University",
-    src: "/images/11.jpg",
+    src: `${import.meta.env.BASE_URL}images/11.jpg`,
   },
   {
     caption: "Coding",
-    src: "/images/12.jpg",
+    src: `${import.meta.env.BASE_URL}images/12.jpg`,
   },
   {
     caption: "Research Mid Evaluation Presentation",
-    src: "/images/13.jpg",
+    src: `${import.meta.env.BASE_URL}images/13.jpg`,
   },
   {
     caption: "University Events",
-    src: "/images/14.jpg",
+    src: `${import.meta.env.BASE_URL}images/14.jpg`,
   },
   // {
   //   caption: "University Events",
-  //   src: "/images/15.jpg",
+  //   src: `${import.meta.env.BASE_URL}images/15.jpg`,
   // },
   {
     caption: "University Events",
-    src: "/images/16.jpg",
+    src: `${import.meta.env.BASE_URL}images/16.jpg`,
   },
   // {
   //   caption: "University Events",
-  //   src: "/images/certificate1.jpg",
+  //   src: `${import.meta.env.BASE_URL}images/certificate1.jpg`,
   // },
   
 ];
