@@ -1,4 +1,3 @@
-
 export const profile = {
   name: "Sanduni Hulathdoowage",
   initials: "SH",
@@ -7,12 +6,13 @@ export const profile = {
   location: "Colombo, Sri Lanka",
   email: "skdilukshi@gmail.com",
   phone: "+94 71 772 8723",
-  resumeUrl: `${import.meta.env.BASE_URL}SE_Sanduni_Hulathdoowage.pdf`,
+  resumeUrl: `${import.meta.env.BASE_URL}Sanduni_Hulathdoowage.pdf`,
   social: {
     github: "https://github.com/kaush997",
     linkedin: "www.linkedin.com/in/sanduni-hulathdoowage-994248245",
     facebook: "https://www.facebook.com/sanduni.kaushalya.31?mibextid=ZbWKwL",
-    scholar: "https://scholar.google.com/citations?user=lpXYeWoAAAAJ&hl=en&authuser=1",
+    scholar:
+      "https://scholar.google.com/citations?user=lpXYeWoAAAAJ&hl=en&authuser=1",
   },
 };
 
@@ -105,7 +105,8 @@ export const education = [
     degree: "Diploma in Business English",
     school: "IUHS campus (Nugegoda, Sri Lanka)",
     period: "2022 — 2022",
-    detail: "Presentation, writing, and communication skills for professional contexts.",
+    detail:
+      "Presentation, writing, and communication skills for professional contexts.",
   },
   {
     degree: "G.C.E. Advanced Level — Physical Science Stream",
@@ -181,22 +182,27 @@ export const certificates = [
 
 export const researches = [
   {
-    title: "An Enhanced U-Net-based Approach for Sinhala Document Layout Analysis",
+    title:
+      "An Enhanced U-Net-based Approach for Sinhala Document Layout Analysis",
     venue: "Journal of Computers and Digital Business, 2025",
     description:
       "Proposed an enhanced U-Net architecture for accurate Sinhala document layout analysis, improving segmentation performance for complex document structures.",
     link: "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=An+Enhanced+U-Net-based+Approach+for+Sinhala+Document+Layout+Analysis&btnG=",
   },
   {
-    title: "Exploring Techniques for Analyzing Sinhala Document Layouts and Styles: A Systematic Literature Review",
-    venue: "International Journal of Research Publication and Reviews (IJRPR), 2025",
+    title:
+      "Exploring Techniques for Analyzing Sinhala Document Layouts and Styles: A Systematic Literature Review",
+    venue:
+      "International Journal of Research Publication and Reviews (IJRPR), 2025",
     description:
       "Conducted a comprehensive review of document layout analysis techniques, highlighting recent advancements, challenges, and future research directions for Sinhala documents.",
     link: "https://ijrpr.com/uploads/V6ISSUE6/IJRPR47501.pdf",
   },
   {
-    title: "Enhanced U-Net Architecture for Analyzing Sinhala Document Layouts and Styles",
-    venue: "Abstract Publication • Computing Undergraduate Research Symposium (ComURS), 2025",
+    title:
+      "Enhanced U-Net Architecture for Analyzing Sinhala Document Layouts and Styles",
+    venue:
+      "Abstract Publication • Computing Undergraduate Research Symposium (ComURS), 2025",
     description:
       "Published and presented a research abstract introducing an enhanced U-Net approach for Sinhala document layout analysis and document structure understanding.",
     link: "http://repo.lib.sab.ac.lk:8080/xmlui/handle/susl/4966",
@@ -208,14 +214,7 @@ export const projects = [
     title: "Human Resource Management System",
     description:
       "A comprehensive multi-company HR management platform featuring attendance tracking, payroll processing, leave and loan management, employee administration, and interactive business dashboards.",
-    tags: [
-      "React",
-      "Vite",
-      "Laravel",
-      "MySQL",
-      "SMS Gateway",
-      "Email Gateway",
-    ],
+    tags: ["React", "Vite", "Laravel", "MySQL", "SMS Gateway", "Email Gateway"],
     link: "#",
     repo: "#",
   },
@@ -223,14 +222,7 @@ export const projects = [
     title: "AI-Based Criminal Identification System",
     description:
       "An AI-powered criminal investigation platform with facial recognition, criminal profile management, crime records, and investigation support for law enforcement agencies.",
-    tags: [
-      "React",
-      "Bootstrap",
-      "FastAPI",
-      "TensorFlow",
-      "Keras",
-      "MySQL",
-    ],
+    tags: ["React", "Bootstrap", "FastAPI", "TensorFlow", "Keras", "MySQL"],
     link: "#",
     repo: "#",
   },
@@ -254,12 +246,7 @@ export const projects = [
     title: "POS System",
     description:
       "A complete point-of-sale solution supporting sales, billing, returns, quotations, inventory control, purchasing, customer loyalty, supplier management, and employee operations.",
-    tags: [
-      "React",
-      "Laravel",
-      "Tailwind CSS",
-      "MySQL",
-    ],
+    tags: ["React", "Laravel", "Tailwind CSS", "MySQL"],
     link: "#",
     repo: "#",
   },
@@ -267,12 +254,7 @@ export const projects = [
     title: "ACME Business Management System",
     description:
       "A business management system for inventory, sales, invoicing, quotations, employee management, attendance, payroll, customer relationships, suppliers, and advanced reporting.",
-    tags: [
-      "Laravel",
-      "Blade",
-      "Tailwind CSS",
-      "MySQL",
-    ],
+    tags: ["Laravel", "Blade", "Tailwind CSS", "MySQL"],
     link: "#",
     repo: "#",
   },
@@ -280,13 +262,7 @@ export const projects = [
     title: "KANDOS — E-commerce Platform",
     description:
       "A fully manageable e-commerce platform with an integrated admin panel for products, inventory batches, orders, payments, customers, and dynamic website content management.",
-    tags: [
-      "React",
-      "Laravel",
-      "Blade",
-      "Tailwind CSS",
-      "MySQL",
-    ],
+    tags: ["React", "Laravel", "Blade", "Tailwind CSS", "MySQL"],
     link: "#",
     repo: "#",
   },
@@ -294,12 +270,7 @@ export const projects = [
     title: "Shield System",
     description:
       "A centralized security platform providing encryption services, secure key management, and token-based authentication to protect sensitive data across enterprise applications.",
-    tags: [
-      "React",
-      "Laravel",
-      "MySQL",
-      "Encryption",
-    ],
+    tags: ["React", "Laravel", "MySQL", "Encryption"],
     link: "#",
     repo: "#",
   },
@@ -374,5 +345,4 @@ export const gallery = [
   //   caption: "University Events",
   //   src: `${import.meta.env.BASE_URL}images/certificate1.jpg`,
   // },
-  
 ];
